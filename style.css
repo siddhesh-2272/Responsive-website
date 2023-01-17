@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background{
+     background: rgba(0, 0, 0, 0.5) url("imges/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg");
+     /* background-image:  ; */
+     background-size: cover;
+     background-blend-mode: darken
+     
+    /* background-color: #cccccc; */
+}
+body img{
+
+   }
+   .first-section{
+    height: 100vh;
+   }
+/* //navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 01;
+}
+.logo
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img{
+    
+    border: white solid 5px;
+    border-radius: 50px;
+    margin: 1vw;
+    opacity: 200%;
+}
+.nav-list{
+    /* background-color: black; */
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 63px;
+    
+}
+.nav-list li{
+list-style: none; margin: 1vw;;
+height: 63px;
+display: flex;
+
+    justify-content: left;
+    align-items: center;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.nav-list li  :hover{
+    text-decoration: none;
+color: aqua; transition-duration: 0.1s;
+/* background-color: rgb(0, 0, 0); */
+display: flex; 
+/* justify-content: center;
+align-items: center; */
+height: 35px;
+/* justify-content: center; */
+    /* align-items: center; */
+    
+
+
+}
+
+.right-div{
+   
+    /* background-color: rgb(0, 0, 0); */
+    width: 30%;
+    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 63px;
+}
+
+.search{
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+.btn {
+    width: 60px;
+    height: 35px;
+    margin: 10px 30px 10px 20px;
+    background: none;border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    transition-duration: 0.4s;
+}
+.btn:hover  {
+    background-color: #000000; /* Green */
+    color: aqua;
+    border: white;
+  }
+.btnn:hover  {
+    background-color: #000000; /* Green */
+    color: aqua;
+    border: white;
+  }
+
+
+.box-main{
+    display: flex;
+    margin: 10px 0px;
+    /* flex-direction: row-reverse
+    ; */
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 55%;
+}
+.btnn{
+    width: 105px;
+    height: 30px;
+    margin: 9px 4px 0px 10px;
+    background: none;
+    border-radius: 9px;
+    border-color: white;
+    border-width: 3px;
+    cursor: pointer; color: white;
+    transition-duration: 0.4s;
+}
+
+.first-half {
+    /* display: block;
+    margin: auto; */
+    width: 80%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    /* align-items: cen/ter; */
+}
+.first-half p{
+    padding: 10px;
+    
+}
+.second-half {
+    /* display: block;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-half img{
+    /* height: 157px; */ 
+    opacity: 100%;
+    width: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    /* padding: 19px 0px; */
+    border-radius: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.big-txt{
+    font-size: 30px;
+    line-height: 30px;
+}
+.small-txt{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+.left{
+   flex-direction: row-reverse;padding: 20px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 55vh; */
+    max-width: 70vw;
+    /* margin: 10px 0; */
+    margin: auto;
+    padding: 50px;
+    
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    padding:0 2vw;
+    margin: 0 30px;
+    color: white;
+}
+.sectag{
+    padding: 18px 0px;
+}
+.thumbnail { margin-top: 2vh;}
+.thumbnail img{
+    height: 29vh;
+    width: 12vw;
+
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5vh;
+    opacity: 170%;
+
+}
+
+/*  Background Image */
+/* 
+hr {
+    border: 2px dotted aqua;
+    
+    margin: auto;
+    background-color: #000000;
+
+  } */
+  
+
+
+.wheat{
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: darken;
+    
+}
+
+
+
+.contact{
+    height: 350px;
+    
+    background-color: rgb(16 16 16);
+    /* color: rgb(30, 29, 29); */
+    color: white;text-align: center;
+   padding: 75px;
+}
+.contact h2{
+    
+}
+.form{
+    max-width:500px;
+    margin:2px auto;
+
+   
+}
+.form-input{
+margin: 15px 0px;
+      width: 100%;
+ font-size: larger;
+}
+.btnn{
+    float: left;
+}
+
+
+footer{
+    height: 50px;
+   padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  
+    color: white;
+   
+}
+
+footer :hover{
+  
+    color: aqua;
+}
+
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+@media screen and (max-width:1200px) {
+    .nav-list{
+        flex-direction: column;
+        margin: 0 0 190px 0;
+    }
+    .navbar{
+        flex-direction: column;
+        background-color: black;
+        height: 390px;
+        transition: 0.4s ease-out;
+    }
+    .right-div{
+        text-align: center;
+        display: flex;
+        /* display: flex; */
+        flex-direction: column;
+        height: 88px;
+        
+    }
+    .box-main{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 90px 0;
+        height: 80%;
+    }
+   .section{
+    flex-direction: column-reverse;
+   }
+
+    .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+    }
+    .h-nav{
+        height: 55px;
+    }
+   .v-class{
+        opacity: 0;
+    }
+    .paras{
+        padding: 0;
+        margin: 0;
+    }
+    .thumbnail img{
+        height: 29vh;
+        width: 40vw;}
+        .big-txt{
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .small-txt{
+            font-size: 17px;
+            text-align: center;
+            line-height: 20px;
+        }
+        .button{
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .button .btnn{
+            height: 40px;
+            width: 70px;
+        }
+}
